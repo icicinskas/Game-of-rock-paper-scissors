@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Typescript 3 paskaita</title>
+  </head>
+  <body>
+    <h1>Game of rock, paper, scissors</h1>
+    <main>
+      <div class="left">
+        <h2>Player</h2>
+        <section id="upper">
+          <div onclick="rockChoose()">
+            <i id="rock" class="fa-solid fa-hand-back-fist"></i>
+          </div>
+          <div onclick="paperChoose()">
+            <i id="paper" class="fa-solid fa-hand"></i>
+          </div>
+          <div onclick="scissorsChoose()">
+            <i id="scissors" class="fa-solid fa-hand-scissors"></i>
+          </div>
+        </section>
+        <button>START</button>
+        <h2>Computer</h2>
+        <section id="lower">
+          <div><i id="rock-pc" class="fa-solid fa-hand-back-fist"></i></div>
+          <div><i id="paper-pc" class="fa-solid fa-hand"></i></div>
+          <div><i id="scissors-pc" class="fa-solid fa-hand-scissors"></i></div>
+        </section>
+      </div>
+      <div class="right">
+        <aside class="result">
+          <h2>Score</h2>
+          <h3>Player: 0</h3>
+          <h3>Computer: 0</h3>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: nunito;
+}
+
+body {
+  background: #1767a4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+h1 {
+  padding: 20px 0 30px 0;
+  color: #cde9ff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 450px;
+  border: 5px solid #003261;
+  border-radius: 6px;
+  background: #cde9ff;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  background: #8fc6ef;
+  border: 2px solid blue;
+  font-size: 1.2em;
+  border-radius: 4px;
+  width: 100px;
+  margin: 50px auto;
+  padding: 5px;
+}
+
+button:hover {
+  background: blue;
+  color: #cde9ff;
+}
+
+i {
+  cursor: pointer;
+  font-size: 5em;
+  color: #003261;
+}
+
+#upper i:hover {
+  opacity: 60%;
+}
+
+.selected {
+  color: #3513ce;
+}
+
+.pcselected {
+  color: #6517a4;
+}
+
+.left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.left h2 {
+  padding: 0 0 10px 20px;
+}
